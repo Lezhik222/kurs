@@ -4,7 +4,6 @@ h2:hover { color: rgba(177, 44, 238, 0.938); text-shadow:white 0 0 60px; }
 .logo_general { float: left; padding-top:10px; padding-left: 20px ; width: 160px;}
 .bg_general {background: url(..//kurs/Site/header.jpg) no-repeat center top/cover; height:120px; width: 100%;}
  * { margin: 0; padding: 0; box-sizing: border-box;}
- footer {text-align: center; color: white; background-color: black; }
 
 
 /*Home page*/
