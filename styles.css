@@ -1,20 +1,29 @@
 /*General*/
-.SocialNet { padding: 0px; padding-top: 25px; padding-right: 25px; float: right; }
+.SocialNet { padding: 0px; padding-top: 0px; float: right; width: 320px; }
 h2:hover { color: rgba(177, 44, 238, 0.938); text-shadow:white 0 0 60px; }
-.logo { float: left; padding-top:10px; padding-left: 20px ; width: 160px;}
-.bg_hat {background: black no-repeat center top/cover; height:120px; width: 100%;}
-.bg {background: url(..//kurs/Site/bg.jpg) no-repeat center top/cover; width: 100%;}
+.logo_general { float: left; padding-top:10px; padding-left: 20px ; width: 160px;}
+.bg_general {background: url(..//kurs/Site/header.jpg) no-repeat center top/cover; height:120px; width: 100%;}
  * { margin: 0; padding: 0; box-sizing: border-box;}
-.Pages { padding-left: 25px; padding-top: 40px ; float: left; width: 600px;  }
-   ul { list-style: none; margin: 0;  padding-left: 0;}
-   li {float: left; display:inline; padding-right: 25px;}
-   a {text-decoration: none;}
-.title { float: left; padding-top: 25px; padding-left: 40px; width: 400px;}
 
-footer { background: black no-repeat center top/cover; height:22px; width: 100%; text-align: center;}
 
-/* #loader {background-color: black; height: 1500px; width:100%; position: fixed; top: 50%; left: 50%; transform: translate(-50% , -50%); z-index: 999;}
-#loader img {position: absolute; top: 50%; left: 50%; transform: translate(-50% , -50%);} */
+/*Home page*/
+.bg_home {background: url(..//kurs/Site/background.jpg) no-repeat center top/cover; height: 820px; width: 100%;}
+ * { margin: 0; padding: 0; box-sizing: border-box;}
+.logo_home { float: left; padding-left: 100px; padding-top:20px; width: 800px;}
+.text_home {float: left; padding-left: 90px; padding-top: 100px; width: 800px;}
+.Pages_home { padding-top: 200px; padding-left: 200px; float: right; width: 600px;}
+li{ list-style-type: none ; } 
+
+/*Gallery page*/
+.bg_gallery {background: url(..//kurs/Site/images/неблюр.jpg) no-repeat center top/cover; height: 1500px ; width: 100%;}
+.text_gallery { float: left; padding-top: 25px; padding-left: 40px; }
+table { width: 100%; padding-left:10px; padding-top: 50px; }
+td, th { padding: 10px; }
+
+/*About Me page*/
+.bg_aboutme {background: url(..//kurs/Site/images/лавка.jpg) no-repeat center top/cover; width: 100%;}
+.info_aboutme {  text-align: center; position: relative;}
+.bg_sm { padding-top: 20px; padding-right: 30px; position: relative;}
 
 /*FONTs*/
  @font-face
@@ -24,8 +33,7 @@ footer { background: black no-repeat center top/cover; height:22px; width: 100%;
   font-family: FONT2;
   src: url(..//kurs/Site/FONTs/trebucbd.ttf);
  }
-    h1 { font-family: FONT, 'JUSTICE LEAGUE'; font-size: 45px; color: white;  }
-    h2 { font-family: FONT2, 'trebucbd'; font-size: 40px; color:white ; }
-    h3 { font-family: FONT2, 'trebucbd'; font-size: 14px; color:rgba(177, 44, 238, 0.938);  }
+    h1 { font-family: FONT, 'JUSTICE LEAGUE'; font-size: 100px; color: white; text-shadow: rgba(98, 15, 136, 0.904) 0 0 28px; }
+    h2 { font-family: FONT2, 'trebucbd'; font-size: 60px; color:white ; text-shadow:rgba(177, 44, 238, 0.938) 0 0 60px; }
+    h3 { font-family: FONT2, 'trebucbd'; font-size: 20px; color:rgba(177, 44, 238, 0.938); text-shadow: white 0 0 100px; }
     h4 { font-family: FONT2, 'trebucbd'; font-size: 26px; color:white; position: absolute; top: 200px; left:320px; width: 440px;}
-    h5 { font-family: FONT2, 'trebucbd'; font-size: 18px; color:white;}
